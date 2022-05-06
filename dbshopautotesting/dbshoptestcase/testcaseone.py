@@ -40,6 +40,7 @@ class TestCaseOne(unittest.TestCase):
         self.action=TouchAction(self.driver)
 
 
+
     def test(self):
         # 判断是否有欢迎界面
         if self.driver.find_elements(By.ID,'com.insthub.ecmobile:id/good_cell_photo_two')==[]:
